@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+    color: black;
+}
+
+header {
+    background-color: #212121;
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+}
+
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+}
+
+i {
+    display: inline;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-weight: 700;
+}
+
+img {
+    height: 350px;
+}
+
+button {
+    background-color: #5596F5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    border-radius: 12px;
+}
+
+#main {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.productCardClass {
+    padding: 30px 0px;
+    text-align: center;
+}
+
+
+#main2 {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
