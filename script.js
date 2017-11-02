@@ -36,10 +36,10 @@ function createListFromProductData() {
 
 }
 
-    //Vi skapar vår nya funktion. Detta gör vi utanför/efter vår tidigare funktion
-    function createProductCard (productData) {
-        var productCard = document.createElement("div")
-        productCard.className = "productCardClass";
+//Vi skapar vår nya funktion. Detta gör vi utanför/efter vår tidigare funktion
+function createProductCard (productData) {
+    var productCard = document.createElement("div")
+    productCard.className = "productCardClass";
 
     //Title
     var getProductTitle = document.createElement("h2");
@@ -68,12 +68,9 @@ function createListFromProductData() {
     productCard.appendChild(buttonElement);        
     
 
-
     //Räknaren uppe vid kundvagnen
-
     var span = document.querySelector("span");
     span.innerText = count;
-
 
     function negative() {
         if (count - step > 0) {
@@ -91,7 +88,10 @@ function createListFromProductData() {
     }
 
 
-    //Med retur skriver vi ut vad funktionen har skapat
-    return productCard;
+//Med retur skriver vi ut vad funktionen har skapat
+return productCard;
     
 }
+
+//kod till kundvagnen...finns inte tyvärr!
+
